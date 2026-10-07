@@ -1,0 +1,19 @@
+{
+  "encoder_checks": [
+    {
+      "segment": "925ae05e6c4a4dd93ec7281e48e4d0e2044ace6b9fc066834cb89aa0ef114454",
+      "tokens": 41,
+      "exact": true,
+      "max_error": 0.0
+    },
+    {
+      "segment": "791b31aab1bc900adbaab4bd5837ba555ff76bf0fa3d65d3629c530495fb8bee",
+      "tokens": 4016,
+      "exact": true,
+      "max_error": 0.0
+    }
+  ],
+  "training_loss": 2.9802276912960224e-06,
+  "memory_gradient_nonzero": true,
+  "frozen_backend_gradients": 0
+}

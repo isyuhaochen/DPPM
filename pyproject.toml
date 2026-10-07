@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dppm"
+version = "0.1.0"
+description = "Dual-Path Parametric Memory for Personalized Language Models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "LICENSES/*.txt"]
+dependencies = ["torch>=2.6,<3", "PyYAML>=6"]
+
+[project.optional-dependencies]
+d2l = ["transformers==4.51.3", "peft==0.15.2", "accelerate==1.6.0", "einops", "jaxtyping", "datasets>=2.21,<4", "huggingface-hub>=0.32", "safetensors", "wandb", "tensorboardX", "bitsandbytes>=0.46.1"]
+text = ["transformers==4.51.3", "accelerate>=1.6", "sentence-transformers==4.1.0"]
+stores = ["qdrant-client==1.15.1", "llmlingua==0.2.2", "tiktoken==0.12.0", "sqlalchemy>=2", "httpx>=0.28", "xgrammar==0.1.27", "openai>=1.90", "posthog>=7.14", "pytz", "rank-bm25>=0.2.2"]
+native = ["transformers==5.4.0", "accelerate>=1.6"]
+dev = ["ruff>=0.9", "build"]
+
+[project.scripts]
+dppm = "dppm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dppm = ["templates/*.jinja"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

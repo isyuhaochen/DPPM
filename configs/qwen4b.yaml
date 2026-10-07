@@ -1,0 +1,22 @@
+backbone: qwen4b
+model_id: Qwen/Qwen3-4B-Instruct-2507
+base_model: Qwen/Qwen3-4B-Instruct-2507
+compiler_checkpoint: models/doc-to-lora/qwen_4b_d2l/checkpoint-20000/pytorch_model.bin
+d2l_source: third_party/doc-to-lora
+device: cuda:0
+attention: flash_attention_2
+answer_template: native
+event_tokens: 4000
+retriever: BAAI/bge-m3
+training:
+  epochs: 5
+  lr: 0.001
+  weight_decay: 0.01
+  grad_clip: 1.0
+external:
+  mem0:
+    source: third_party/mem0
+  lightmem:
+    source: third_party/LightMem
+  plume:
+    source: third_party/PLUME

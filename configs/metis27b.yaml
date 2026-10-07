@@ -1,0 +1,7 @@
+backbone: metis27b
+base_model: IAAR-Shanghai/Metis-27B
+device: cuda:0
+external:
+  metis:
+    source: third_party/Metis
+    checkpoint: IAAR-Shanghai/Metis-27B

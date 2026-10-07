@@ -1,0 +1,56 @@
+[
+  {
+    "file": "qwen4b_persona_seed42.pt",
+    "backbone": "qwen4b",
+    "dataset": "persona",
+    "seed": 42,
+    "epochs": 5,
+    "trainable_parameters": 527364,
+    "sha256": "00c774f7e870d3e5867fbad34554b47128b77c94532f80d4f48694290783ab5b"
+  },
+  {
+    "file": "qwen4b_prefeval_seed42.pt",
+    "backbone": "qwen4b",
+    "dataset": "prefeval",
+    "seed": 42,
+    "epochs": 5,
+    "trainable_parameters": 527364,
+    "sha256": "7470fed8396bf238323b2b11c071b64f777b5c7336daa3a61342d60d534251af"
+  },
+  {
+    "file": "gemma2b_persona_seed42.pt",
+    "backbone": "gemma2b",
+    "dataset": "persona",
+    "seed": 42,
+    "epochs": 5,
+    "trainable_parameters": 527364,
+    "sha256": "85f9c1b4a702c50609fbfd41baeee45a82e90d70a9de3566be93d5734112cfc5"
+  },
+  {
+    "file": "gemma2b_prefeval_seed42.pt",
+    "backbone": "gemma2b",
+    "dataset": "prefeval",
+    "seed": 42,
+    "epochs": 5,
+    "trainable_parameters": 527364,
+    "sha256": "7f98f61aa2c232c1a51c2d23aacb375a6b154f1599e96779bb2da601aeea1e04"
+  },
+  {
+    "file": "mistral7b_persona_seed42.pt",
+    "backbone": "mistral7b",
+    "dataset": "persona",
+    "seed": 42,
+    "epochs": 5,
+    "trainable_parameters": 527364,
+    "sha256": "5966d8e801144fda3fe5639284813b421b9ec1f1f4304a2ef51595bd06fff68f"
+  },
+  {
+    "file": "mistral7b_prefeval_seed42.pt",
+    "backbone": "mistral7b",
+    "dataset": "prefeval",
+    "seed": 42,
+    "epochs": 5,
+    "trainable_parameters": 527364,
+    "sha256": "db99c72ef148dc7a681c0ec4c926302615abe2d78a924dbb30fd4eea31cb85f6"
+  }
+]

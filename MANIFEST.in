@@ -1,0 +1,6 @@
+include CITATION.cff THIRD_PARTY_NOTICES.md
+recursive-include configs *.yaml
+recursive-include docs *.md *.json
+recursive-include checkpoints *.pt *.json *.md
+recursive-include scripts *.py
+recursive-include tests *.py

@@ -1,0 +1,7 @@
+backbone: qwen4b
+base_model: Qwen/Qwen3-4B-Instruct-2507
+device: cuda:0
+external:
+  delta_mem:
+    source: third_party/delta-Mem
+    checkpoint: declare-lab/delta-mem_qwen3_4b-instruct

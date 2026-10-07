@@ -1,0 +1,18 @@
+{
+  "dataset": "PrefEval",
+  "backbone": "Qwen/Qwen3-4B-Instruct-2507",
+  "method": "dppm",
+  "seed": 42,
+  "test_examples": 1620,
+  "accuracy_percent": 87.77777777777777,
+  "paper_five_seed_mean_percent": 86.79,
+  "complete_split": true,
+  "installed_wheel_verified": true,
+  "unit_tests_passed": 9,
+  "lint_passed": true,
+  "private_identifier_scan_passed": true,
+  "fresh_compiled_segments_verified": 2,
+  "reused_compiled_segments": 578,
+  "comparison": "prediction_comparison.json",
+  "encoder_check": "encoder_check.json"
+}

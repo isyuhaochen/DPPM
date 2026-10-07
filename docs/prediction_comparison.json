@@ -1,0 +1,11 @@
+{
+  "count": 1620,
+  "correct": 1422,
+  "accuracy": 87.77777777777777,
+  "label_mismatches": 0,
+  "prediction_mismatches": 0,
+  "max_absolute_logit_difference": 0.0,
+  "identical_logits": true,
+  "reference_sha256": "e6ef4921cbac539715086f60c5fe1e17aa1deea354021ae0ba6aded96b05e52c",
+  "actual_sha256": "33d8741c25bb0d57499ba3a221339e70f3dfb9d465202db22db26c1e694384af"
+}
